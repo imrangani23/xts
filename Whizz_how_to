@@ -1,0 +1,38 @@
+Open CSV folder
+Open csv files in notepad ++
+Copy the CSV filename and open in relevant folder. For example (C:\Whizz\content-source-fr\R Topic\MA_GBR_0525RAx0100)
+Open the file (if it is a action scripting fiie open in flash, if not open in notepad++
+Change the language from english to french using CSV file and then save it
+Do the same in pb file also and then save it
+Copy the pb file and paste it into (C:\Whizz\content-compiled-fr-cd\v2\maths\lessons\pb)
+Open C:\Whizz\content-source-fr and right click and click gitbash here
+git status - give this command
+git commit -a -m "fix" - to commit what are all the fixes made
+gitpull - (run this command) fetch and download content from remote repository and immediately update to local repository to match the content
+Then give esc:x|
+git push - (run this command) git push is commonly used to publish an upload local changes to central repository.
+C:\Whizz\lesson-manager\jsfl_prepare_publish_script\jsfl_server - open this (flash player)
+go to 48th line and put the lesson code which lesson is recently chagned. For example (var relevant_lessons = ['MA_GBR_0525FAx0100'])
+Press the play button.
+Then go to this folder - C:\Whizz\content-compiled-fr-cd\v2\maths\lessons\pb
+git commit -a -m "Fix" && git pull --rebase && git push - give this command and run it.
+Done
+
+
+Not in the current branch
+git push --set-upstream origin SX2
+
+git checkout abu/Cleanversion && git add -u && git commit -m 'Fix' && git pull --rebase && git push
+
+Git EOF fatal error
+run this
+git config --global http.postBuffer 524288000
+then
+git config --global http.postBuffer 6291456
+
+try
+git config --global http.postBuffer 157286400
+
+set GIT_TRACE_PACKET=1
+set GIT_TRACE=1
+set GIT_CURL_VERBOSE=1

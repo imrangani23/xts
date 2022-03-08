@@ -1,0 +1,5 @@
+Windows copy command from one path to another path
+
+for /f "delims=" %i in (C:\Whizz\copytextfiles.txt) do (xcopy "%i" "C:\Whizz" /i /z /y)
+
+C:\Whizz\content-source-fr\F Topic\MA_GBR_0750FAx0800\paper-based\MA_GBR_0750FAp0800.txt"

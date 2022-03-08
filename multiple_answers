@@ -1,0 +1,2 @@
+ if (onlineQuestions["answerBox"+i].answer.toLowerCase() == answer[i-1] || onlineQuestions["answerBox"+i].answer.toLowerCase() == answer1[i-1])
+ 

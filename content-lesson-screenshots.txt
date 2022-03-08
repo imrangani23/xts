@@ -1,0 +1,35 @@
+Content Lesson Screenshots
+
+
+Step 1 : Inside content-lesson-screenshots
+
+open git bash
+
+Step 2 : install selenium
+
+npm install selenium-standalone -g
+npm install selenium-standalone --save-dev
+
+Step 3 : install chromedriver
+
+npm install chromedriver -g
+npm install
+
+Step 4 : install selenium-webdriver
+
+npm install selenium-webdriver -g
+npm install selenium-webdriver
+
+Step 5 : Configure index.js
+
+Configuration is done inside `index.js`, in the `config` map.
+
+- `locale_id`: eg.: `en-gb`
+- `player_domain`: The lesson player domain. Don't include a protocol.
+- `lesson_ids`: Array of String of the ids, eg: `["MA_GBR_1000BAx0100", ...]`
+- `sleep.before_screenshot`: Delay after loading the first page and clicking the start button.
+- `files.base_dir`: Base directory where files are to be stored.
+
+Step 6 : Run index file
+
+node index.js

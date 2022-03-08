@@ -1,0 +1,7 @@
+answerText.onChanged=function(){
+	if(answerText.text.indexOf("-")==-1){
+		answerText.restrict="0-9\\-";
+	}else{
+		answerText.restrict="0-9";
+	}
+};

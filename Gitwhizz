@@ -1,0 +1,64 @@
+GIT COMMANDS:
+
+git commit -a -m "Fix" && git pull --rebase && git push - one command ot push the changes
+
+git commit - to commit the changes
+
+git status - to check the status of the repo (aka - modified files list)
+
+git log - to see the lo
+
+git checkout - Switch branches or restore working tree files
+
+git commit  -a -m "files"
+
+git push - The git push command is used to upload local repository content to a remote repository
+
+git pull - The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+
+Not in the current branch:
+git push --set-upstream origin SX2
+
+git checkout abu/Cleanversion && git add -u && git commit -m 'Fix' && git pull --rebase && git push
+
+Git EOF fatal error:
+run this
+
+Internet connection error :
+git gc
+
+git config --global http.postBuffer 524288000
+then
+git config --global http.postBuffer 6291456
+
+git config --global http.postBuffer 157286400
+
+Rebase 1/2 :
+git rebase --abort
+
+
+set GIT_TRACE_PACKET=1
+set GIT_TRACE=1
+set GIT_CURL_VERBOSE=1 
+
+Find what
+[\r\n]+.
+
+Replace with
+",
+
+Search mode
+Regular expression
+
+error: bad index file sha1 signature
+fatal: index file corrupt
+git read-tree instead of git reset.
+
+
+Merge conflict:
+git log
+git diff  0fd67c1da 3db --name-only | clip
+git show --pretty="" --name-only  8b82232ed | clip
+git commit -a -m "merge conflict fixes"
+
+

@@ -1,0 +1,7 @@
+yup ui-lesson-player
+inside git bash
+run yarn
+first and then yarn start inside the compiled th folder
+go to cmd promp inside th compiled folder
+run python -m http.server
+

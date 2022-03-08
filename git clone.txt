@@ -1,0 +1,24 @@
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/content-source-th
+
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/content-source-mx
+
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/content-source-gb
+
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/content-source-sw
+
+
+
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/content-compiled-en-us
+
+
+
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/api-client
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/api-model
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/browserslist-config
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/lesson-manager
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/react-branding
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/react-error-boundary
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/react-i18n
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/ui-lesson-player
+git clone ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/react-lesson-player
+

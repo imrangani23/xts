@@ -1,0 +1,20 @@
+import os, sys
+from PIL import Image
+
+path = "C:/Users/imran/OneDrive/Pictures/fr-cd_screenshots/"
+dirs = os.listdir( path )
+dpath= "C:/Users/imran/OneDrive/Pictures/PY_fr-cd_screenshots/"
+
+
+for item in dirs:
+    im = Image.open(path+item)
+    #print(path, item)
+    rgb_im = im.convert('RGB')
+    f, e = os.path.splitext(path+item)
+    #print(f , e)    
+    fname= f.split('/')[-1]
+    #print(fname)
+    imResize = rgb_im.resize((307,222), Image.ANTIALIAS)
+    imResize.save(dpath+fname+ '.jpg', 'JPEG', quality=72)
+
+resize()
