@@ -1,1 +1,0 @@
-"Epic Link" = CI-8935 AND status = "Testing Failed"
